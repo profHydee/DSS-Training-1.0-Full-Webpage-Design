@@ -1,0 +1,43 @@
+.imgz{
+    display:flex;
+    flex-wrap:wrap;
+}
+.imgz img{
+    width:400px;
+    margin:10px;
+}
+div#about-me{
+    background-image: url(/gray-laptop-computer-showing-html-codes-in-shallow-focus-160107.jpg);
+    padding:30% 0;
+    margin:0 auto;
+}
+div.about-me{
+    color:blue;
+    text-align:left;
+}
+
+/* This is how to comment out CSS codes, comments can also be used to add description to our codes like i have just done
+you will then close it like this. So start checking for the class styling below */
+
+/* First i want to space out all the h1 tags */
+h1{
+    padding: 30px;
+    margin-top:20px;
+}
+.firsth1{
+    background-color: blue;
+}
+h1.secondh1{
+    background-color: green;
+}
+.thirdh1{
+    background-color: red;
+}
+p#new-id{
+    background-color: rgb(128, 0, 64);
+}
+
+.colorAllTags{
+    color:#ffffff;
+}
+
